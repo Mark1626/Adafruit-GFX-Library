@@ -1,6 +1,8 @@
-apply plugin: 'java'
-apply plugin: 'eclipse'
-apply plugin: 'application'
+plugins {
+   id 'java'
+   id 'eclipse'
+   id 'application'
+}
 
 mainClassName = "Image2Code"
 
